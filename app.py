@@ -1,24 +1,3 @@
-# requirements.txt
-Flask==3.0.0
-gunicorn==21.2.0
-
-# vercel.json
-{
-    "version": 2,
-    "builds": [
-        {
-            "src": "app.py",
-            "use": "@vercel/python"
-        }
-    ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "app.py"
-        }
-    ]
-}
-
 # app.py
 from flask import Flask, redirect
 from os import environ
