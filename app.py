@@ -6,7 +6,7 @@ from os import environ
 app = Flask(__name__)
 
 # Discord invite URL
-DISCORD_INVITE_URL = "https://discord.com/TTSUgZ73aY"
+DISCORD_INVITE_URL = "https://discord.com/invite/TTSUgZ73aY"
 
 # Route for root path
 @app.route('/')
